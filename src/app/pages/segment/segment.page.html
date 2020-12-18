@@ -1,0 +1,21 @@
+<app-header titulo="segment 1"></app-header>
+
+<ion-content class="ion-padding">
+
+    <ion-segment (ionChange)="segmentChanged($event)" value="friends">
+        <ion-segment-button value="friends">
+          <ion-label>Friends</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="enemies">
+          <ion-label>Enemies</ion-label>
+        </ion-segment-button>
+      </ion-segment>
+
+
+      <ion-list *ngIf="amigo">
+          <ion-item *ngFor="let usuario of friend">
+              <ion-label> {{usuario.name}} </ion-label>
+          </ion-item>
+      </ion-list>
+<!-- TERMINAR - PONER EL SEGMENT EN EL HEADER - AGREGAR A LOS ENEMIGOS  -->
+</ion-content>

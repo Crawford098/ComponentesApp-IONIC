@@ -1,0 +1,46 @@
+<ion-app>
+
+  <ion-split-pane  contentId="main">
+
+    <ion-menu side="start" menuId="first" contentId="main">
+
+      <ion-header>
+  
+        <ion-toolbar color="primary">
+          <ion-title>Start Menu</ion-title>
+  
+          <ion-avatar slot="end">
+            <img src="/assets/icon/stan-lee.jpg" />
+          </ion-avatar>
+  
+        </ion-toolbar>
+  
+      </ion-header>
+  
+      <ion-content>
+        <ion-list>
+  
+          <!-- el ion-menu-toggle es el que permite que el menu se cierre automaticamente  -->
+          <ion-menu-toggle *ngFor="let c of componentes | async"
+                            autoHide="false">
+  
+            <ion-item [routerLink] = "c.redirectTo"
+                      detail>
+                <ion-icon slot="start" [name]="c.icon"  color="secondary" ></ion-icon>
+                      {{c.name}} 
+            </ion-item>
+  
+          </ion-menu-toggle>
+          
+      
+        </ion-list>
+      </ion-content>
+  
+    </ion-menu>
+  
+    <ion-router-outlet id=main></ion-router-outlet>
+
+  </ion-split-pane>
+
+  
+</ion-app>

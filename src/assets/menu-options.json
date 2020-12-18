@@ -1,0 +1,125 @@
+[{
+
+    "icon":"basketball",
+    "name":"Action Sheet",
+    "redirectTo":"/action-sheet"
+  },{
+
+    "icon":"alert-circle",
+    "name":"Alert",
+    "redirectTo":"/alert"
+  },
+  {
+    "icon":"beaker",
+    "name":"avatar",
+    "redirectTo":"/avatar"
+
+  },{
+    "icon":"add-circle",
+    "name":"button",
+    "redirectTo":"/button"
+
+  },{
+    "icon":"card",
+    "name":"cards",
+    "redirectTo":"/card"
+
+  },{
+    "icon":"checkmark",
+    "name":"CheckBox",
+    "redirectTo":"/checkbox"
+
+  },{
+    "icon":"calendar",
+    "name":"datetime",
+    "redirectTo":"/date-time"
+
+  },{
+    "icon":"add",
+    "name":"Fab Button",
+    "redirectTo":"/fab"
+
+  },{
+    "icon":"apps",
+    "name":"Grid",
+    "redirectTo":"/grid"
+
+  },{
+    "icon":"infinite",
+    "name":"Infinite-Scroll",
+    "redirectTo":"/infinie"
+
+  },{
+    "icon":"text",
+    "name":"Inputs",
+    "redirectTo":"/input"
+
+  },{
+    "icon":"list",
+    "name":"List",
+    "redirectTo":"/list"
+
+  },{
+    "icon":"list",
+    "name":"List-reorder",
+    "redirectTo":"/list-reorder"
+
+  },{
+    "icon":"refresh",
+    "name":"Loading",
+    "redirectTo":"/loading"
+
+  },{
+    "icon":"phone-portrait",
+    "name":"Modal",
+    "redirectTo":"/modal"
+
+  },{
+    "icon":"tablet-portrait",
+    "name":"Popover",
+    "redirectTo":"/popover"
+
+  },{
+    "icon":"code-working",
+    "name":"Progress Bar",
+    "redirectTo":"/progress"
+
+  },{
+    "icon":"arrow-down-circle",
+    "name":"Refresher",
+    "redirectTo":"/refresher"
+
+  },{
+    "icon":"search",
+    "name":"Search",
+    "redirectTo":"/search"
+
+  },{
+    "icon":"bookmark",
+    "name":"Segment",
+    "redirectTo":"/segment"
+
+  },{
+    "icon":"bookmarks",
+    "name":"Segment Comics",
+    "redirectTo":"/segment2"
+
+  },{
+    "icon":"albums",
+    "name":"Slides",
+    "redirectTo":"/slides"
+
+  },{
+    "icon":"cog",
+    "name":"Tabs",
+    "redirectTo":"/tabs"
+
+  },{
+    "icon":"pricetag",
+    "name":"Toust",
+    "redirectTo":"/toust"
+
+  }
+
+
+]

@@ -1,0 +1,21 @@
+<app-header [titulo]="nombre || 'Input form'"></app-header>
+
+<ion-content>
+
+
+<ion-list>
+  
+
+  <ion-list-header color="light">
+    <ion-label>Input normal</ion-label>
+  </ion-list-header>
+
+  <ion-item>
+    <ion-label>Nombre:</ion-label>
+    <ion-input type="text" placeholder="Awesome Input" [(ngModel)]="nombre"></ion-input>
+  </ion-item>
+</ion-list>
+
+
+
+</ion-content>
